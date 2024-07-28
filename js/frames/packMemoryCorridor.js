@@ -11,6 +11,8 @@ availableFrames = [
 	{name:'Red Frame', src:'/img/frames/memoryCorridor/r.png', masks: masks},
 	{name:'Green Frame', src:'/img/frames/memoryCorridor/g.png', masks: masks},
 	{name:'Multicolored Frame', src:'/img/frames/memoryCorridor/m.png', masks: masks},
+	{name:'Artifact Frame', src:'/img/frames/memoryCorridor/a.png', masks: masks},
+	{name:'Land Frame', src:'/img/frames/memoryCorridor/l.png', masks: masks},
 
 	{name:'White Power/Toughness Box', src:'/img/frames/memoryCorridor/pt/w.png', bounds: bptBounds},
 	{name:'Blue Power/Toughness Box', src:'/img/frames/memoryCorridor/pt/u.png', bounds: bptBounds},
@@ -18,6 +20,8 @@ availableFrames = [
 	{name:'Red Power/Toughness Box', src:'/img/frames/memoryCorridor/pt/r.png', bounds: bptBounds},
 	{name:'Green Power/Toughness Box', src:'/img/frames/memoryCorridor/pt/g.png', bounds: bptBounds},
 	{name:'Multicolored Power/Toughness Box', src:'/img/frames/memoryCorridor/pt/m.png', bounds: bptBounds},
+	{name:'Artifact Power/Toughness Box', src:'/img/frames/memoryCorridor/pt/a.png', bounds: bptBounds},
+	{name:'Land Power/Toughness Box', src:'/img/frames/memoryCorridor/pt/l.png', bounds: bptBounds},
 
 	{name:'Gold Holo Stamp', src: '/img/frames/memoryCorridor/stamp-gold.png', bounds: stampBounds},
 	{name:'Gray Holo Stamp', src: '/img/frames/memoryCorridor/stamp.png', bounds: stampBounds}
@@ -29,7 +33,7 @@ document.querySelector('#loadFrameVersion').onclick = async function() {
 	//resets things so that every frame doesn't have to
 	await resetCardIrregularities();
 	//sets card version
-	card.version = 'pipboy';
+	card.version = 'memoryCorridor';
 	//art bounds
 	card.artBounds = {x:0, y:0, width:2010/2010, height:1587/2814};
 	autoFitArt();
