@@ -10,7 +10,7 @@ availableFrames = [
 	{name:'Green Frame', src:'/img/frames/ixalanLegends/g2.png'},
 	{name:'Multicolored Frame', src:'/img/frames/ixalanLegends/m2.png'},
 	{name:'Artifact Frame', src:'/img/frames/ixalanLegends/a2.png'},
-	{name:'Land Frame', src:'/img/frames/ixalanLegends/c2.png'},
+	{name:'Land Frame', src:'/img/frames/ixalanLegends/l2.png'},
 
 	{name:'White Power/Toughness', src:'/img/frames/ixalanLegends/pt/w.png', bounds: ptBounds},
 	{name:'Blue Power/Toughness', src:'/img/frames/ixalanLegends/pt/u.png', bounds: ptBounds},
@@ -19,7 +19,7 @@ availableFrames = [
 	{name:'Green Power/Toughness', src:'/img/frames/ixalanLegends/pt/g.png', bounds: ptBounds},
 	{name:'Multicolored Power/Toughness', src:'/img/frames/ixalanLegends/pt/m.png', bounds: ptBounds},
 	{name:'Artifact Power/Toughness', src:'/img/frames/ixalanLegends/pt/a.png', bounds: ptBounds},
-	{name:'Land Power/Toughness', src:'/img/frames/ixalanLegends/pt/c.png', bounds: ptBounds},
+	{name:'Land Power/Toughness', src:'/img/frames/ixalanLegends/pt/l.png', bounds: ptBounds},
 
 	{name:'White Legendary Crown', src:'/img/frames/ixalanLegends/crown/w.png', bounds: crownBounds},
 	{name:'Blue Legendary Crown', src:'/img/frames/ixalanLegends/crown/u.png', bounds: crownBounds},
@@ -28,7 +28,7 @@ availableFrames = [
 	{name:'Green Legendary Crown', src:'/img/frames/ixalanLegends/crown/g.png', bounds: crownBounds},
 	{name:'Multicolored Legendary Crown', src:'/img/frames/ixalanLegends/crown/m.png', bounds: crownBounds},
 	{name:'Artifact Legendary Crown', src:'/img/frames/ixalanLegends/crown/a.png', bounds: crownBounds},
-	{name:'Land Legendary Crown', src:'/img/frames/ixalanLegends/crown/c.png', bounds: crownBounds}
+	{name:'Land Legendary Crown', src:'/img/frames/ixalanLegends/crown/l.png', bounds: crownBounds}
 ];
 //disables/enables the "Load Frame Version" button
 document.querySelector('#loadFrameVersion').disabled = false;
