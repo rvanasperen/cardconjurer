@@ -17,7 +17,13 @@ availableFrames = [
 	{name:'Red Power/Toughness', src:'/img/frames/m15/regular/m15PTR.png', bounds:bounds},
 	{name:'Green Power/Toughness', src:'/img/frames/m15/regular/m15PTG.png', bounds:bounds},
 	{name:'Multicolored Power/Toughness', src:'/img/frames/m15/regular/m15PTM.png', bounds:bounds},
-	{name:'Artifact Power/Toughness', src:'/img/frames/m15/regular/m15PTA.png', bounds:bounds}
+	{name:'Artifact Power/Toughness', src:'/img/frames/m15/regular/m15PTA.png', bounds:bounds},
+	{name:'White Land Frame', src:'/img/frames/m15/transform/regular/frontWL.png', masks:masks},
+	{name:'Blue Land Frame', src:'/img/frames/m15/transform/regular/frontUL.png', masks:masks},
+	{name:'Black Land Frame', src:'/img/frames/m15/transform/regular/frontBL.png', masks:masks},
+	{name:'Red Land Frame', src:'/img/frames/m15/transform/regular/frontRL.png', masks:masks},
+	{name:'Green Land Frame', src:'/img/frames/m15/transform/regular/frontGL.png', masks:masks},
+	{name:'Multicolored Land Frame', src:'/img/frames/m15/transform/regular/frontML.png', masks:masks},
 ];
 //disables/enables the "Load Frame Version" button
 document.querySelector('#loadFrameVersion').disabled = false;

@@ -4,6 +4,8 @@ loadFramePacks([
 	{name:'Universes Beyond (Full art)', value:'UBFull'},
 	{name:'Universes Beyond (Extended art)', value:'UBExtendedArt'},
 
+	{name:'Transform (Universes Beyond) (Front)', value: 'M15TransformUBFront'},
+
 	{name:'Rooms (Universes Beyond)', value:'RoomUB'},
 	{name:'Sagas (Universes Beyond)', value:'SagaUB'},
 	{name:'Spree (Universes Beyond)', value:'SpreeUB'},
