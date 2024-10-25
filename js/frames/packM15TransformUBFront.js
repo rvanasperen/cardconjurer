@@ -11,6 +11,7 @@ availableFrames = [
 	{name:'Green Frame', src:'/img/frames/m15/transform/ub/frontG.png', masks:masks},
 	{name:'Multicolored Frame', src:'/img/frames/m15/transform/ub/frontM.png', masks:masks},
 	{name:'Artifact Frame', src:'/img/frames/m15/transform/ub/frontA.png', masks:masks},
+	{name:'Vehicle Frame', src:'/img/frames/m15/transform/ub/frontV.png', masks:masks},
 	{name:'Land Frame', src:'/img/frames/m15/transform/ub/frontL.png', masks:masks},
 	{name:'White Power/Toughness', src:'/img/frames/m15/ub/pt/w.png', bounds:bounds},
 	{name:'Blue Power/Toughness', src:'/img/frames/m15/ub/pt/u.png', bounds:bounds},
