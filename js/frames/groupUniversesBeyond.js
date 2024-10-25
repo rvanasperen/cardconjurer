@@ -13,6 +13,7 @@ loadFramePacks([
 
 	{name:'Addons', value:'disabled'},
 	{name:'Legend Crowns (Universes Beyond)', value:'UBLegendCrowns'},
+	{name:'Legend Crowns (Transform) (Universes Beyond)', value:'TransformLegendCrownsUB'},
 	{name:'Floating Legend Crowns (Universes Beyond)', value:'UBLegendCrownsFloating'},
 	{name:'Inner Crowns', value:'M15InnerCrowns'},
 	{name:'Nicknames', value:'M15Nickname-2'},
