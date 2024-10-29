@@ -7,6 +7,8 @@ loadFramePacks([
 	{name:'Transform (Universes Beyond) (Front)', value: 'M15TransformUBFront'},
 	{name:'Transform (Universes Beyond) (Back)', value: 'M15TransformUBBackNew'},
 
+	{name:'Modal DFCs (Universes Beyond)', value:'ModalUB'},
+
 	{name:'Rooms (Universes Beyond)', value:'RoomUB'},
 	{name:'Sagas (Universes Beyond)', value:'SagaUB'},
 	{name:'Spree (Universes Beyond)', value:'SpreeUB'},

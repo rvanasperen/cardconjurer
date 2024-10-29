@@ -1,5 +1,8 @@
 loadFramePacks([
 	{name:'Regular', value:'ModalRegular'},
+	{name:'Nyx', value:'ModalNyx'},
+	{name:'Snow', value:'ModalSnow'},
+	{name:'Universes Beyond', value:'ModalUB'},
 	{name:'Borderless', value:'ModalBorderless'},
 	{name:'Extended Art', value:'ModalExtended'},
 	{name:'Nickname', value:'ModalNickname'},
