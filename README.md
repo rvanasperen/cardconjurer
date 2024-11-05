@@ -14,75 +14,25 @@ This repository is for the purpose of making the application usable on your loca
 
 ## Start with Docker (http://localhost:4242/)
 
-<details>
-  <summary>Install Make on Ubuntu</summary>
+This is an alternative way to run Card Conjurer locally for more technically inclined people.
 
-  ```bash
-  $ sudo apt update
-  ```
+A Docker Compose file is present to run the application in a lightweight Nginx context.
 
-  check is make installed
-
-  ```bash
-  $ make -version
-  ```
-
-  after run this command, you got the following error? 
-  
-  - **bash: /usr/bin/make: No such file or directory**
-
-  then follow with the next step, otherwise skip the next commands
-
-  ```bash
-  $ sudo apt install make
-  ```
-
-### Troubleshooting's? 
- * Follow this guide https://linuxhint.com/install-make-ubuntu/
-</details>
-
-<details>
-  <summary>Install Make on Mac</summary>
-
-  check is make installed
-
-  ```bash
-  $ make -version
-  ```
-
-  after run this command, you got the following error? 
-  
-  - **zsh: command not found: make**
-
-  then follow with the next step, otherwise skip the next commands
-
-  ```bash
-  $ (sudo) brew install make
-  ```
-</details>
-
-<details>
-  <summary>Install Make on Windows</summary>
-
-  Follow this Guide
-  https://sp21.datastructur.es/materials/guides/make-install.html#windows-installation
-</details>
-
-* go to the downloaded/ cloned folder with your terminal/ powershell (windows) and run the following command
+Starting:
 
 ```bash
-$ make start
+docker-compose up -d
+```
+
+Stopping:
+
+```bash
+docker-compose down
 ```
 
 Open your Browser with the following URL 
 
 http://localhost:4242/
-
-When you're done making cards, run the following command to stop the application:
-
-```bash
-$ make stop
-```
 
 ### Important
 
