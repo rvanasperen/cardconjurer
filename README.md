@@ -29,13 +29,13 @@ context. The port used is 4242 (http://localhost:4242/).
 Starting:
 
 ```bash
-$ docker-compose up -d
+$ docker compose up -d
 ```
 
 Stopping:
 
 ```bash
-$ docker-compose down
+$ docker compose down
 ```
 
 ## Using Local Images
